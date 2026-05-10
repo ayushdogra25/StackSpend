@@ -1,0 +1,43 @@
+<svg width="1254" height="1254" viewBox="0 0 1254 1254" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1254" height="1254" rx="96" fill="url(#background)"/>
+  <g filter="url(#softShadow)">
+    <path d="M537.5 208H785.5C829.5 208 865.9 233.5 882.6 274.2L917.4 359.4C920 365.7 915.3 372.7 908.5 372.7H566.9C523.3 372.7 489.9 391.5 471.7 425.2C454.5 457 456.3 494 476.3 528.1L549.7 653.2H437.2C426.1 653.2 415.3 650.8 405.8 645.2C350.1 612.3 316.1 553.1 315.1 488.6C313.8 413.7 352.3 337.7 418.4 283.6C452.1 256 493 233.2 537.5 208Z" fill="url(#topMark)"/>
+    <path d="M713.4 493.3H825.8C836.9 493.3 847.7 495.7 857.2 501.3C912.9 534.2 946.9 593.4 947.9 657.9C949.2 732.8 910.7 808.8 844.6 862.9C810.9 890.5 770 913.3 725.5 938.5H473.5C429.5 938.5 393.1 913 376.4 872.3L341.6 787.1C339 780.8 343.7 773.8 350.5 773.8H693.1C736.7 773.8 770.1 755 788.3 721.3C805.5 689.5 803.7 652.5 783.7 618.4L713.4 493.3Z" fill="url(#bottomMark)"/>
+    <rect x="566" y="499" width="30" height="53" rx="8" fill="url(#bars)"/>
+    <rect x="612" y="467" width="30" height="85" rx="8" fill="url(#bars)"/>
+    <rect x="658" y="434" width="30" height="118" rx="8" fill="url(#bars)"/>
+  </g>
+  <g filter="url(#textShadow)">
+    <text x="185" y="1008" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="118" font-weight="800" letter-spacing="-4">Stack</text>
+    <text x="602" y="1008" fill="url(#wordGradient)" font-family="Inter, Arial, sans-serif" font-size="118" font-weight="800" letter-spacing="-4">Spend</text>
+  </g>
+  <defs>
+    <radialGradient id="background" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(627 627) rotate(90) scale(627)">
+      <stop stop-color="#071a46"/>
+      <stop offset="1" stop-color="#020b24"/>
+    </radialGradient>
+    <linearGradient id="topMark" x1="326" y1="209" x2="936" y2="639" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#b24cff"/>
+      <stop offset="1" stop-color="#3e7cff"/>
+    </linearGradient>
+    <linearGradient id="bottomMark" x1="341" y1="493" x2="947" y2="938" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5cff9e"/>
+      <stop offset="1" stop-color="#28d5ff"/>
+    </linearGradient>
+    <linearGradient id="bars" x1="566" y1="434" x2="699" y2="547" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8b60ff"/>
+      <stop offset="1" stop-color="#4d7cff"/>
+    </linearGradient>
+    <linearGradient id="wordGradient" x1="602" y1="903" x2="1058" y2="1035" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4aa3ff"/>
+      <stop offset="0.55" stop-color="#28d5ff"/>
+      <stop offset="1" stop-color="#5cff9e"/>
+    </linearGradient>
+    <filter id="softShadow" x="270" y="163" width="723" height="821" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#000717" flood-opacity="0.36"/>
+    </filter>
+    <filter id="textShadow" x="165" y="880" width="930" height="170" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#000717" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+</svg>
