@@ -1,6 +1,6 @@
 # StackSpend MVP
 
-Launch-ready MVP for an AI spend audit product.
+Launch-ready MVP for an AI spend audit product..
 
 ## What is built
 
